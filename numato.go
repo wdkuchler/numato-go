@@ -2,6 +2,7 @@ package main
 
 // para teste -> http://localhost:8080/?device=com6&command=pulse
 // para teste -> http://localhost:8080/?device=/dev/ttyACM0&command=pulse
+// sudo chmod 666 /dev/ttyACM0
 
 import (
 	"fmt"
